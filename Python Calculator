@@ -1,0 +1,27 @@
+while True: 
+  Operation = input("What Operation (Add, Subtract, Multiply, Divide)?")
+  
+  if Operation == "Add":
+      num1 = int(input("Enter number: "))
+      num2 = int(input("Enter number: "))
+      result = num1 + num2
+      print("Answer:", result)
+  elif Operation == "Subtract":
+      num1 = int(input("Enter number: "))
+      num2 = int(input("Enter number: "))
+      result = num1 - num2
+      print("Answer:", result)
+  elif Operation == "Multiply":
+      num1 = int(input("Enter number: "))
+      num2 = int(input("Enter number: "))
+      result = num1 * num2
+      print("Answer:", result)
+  elif Operation == "Divide":
+      num1 = int(input("Enter number: "))
+      num2 = int(input("Enter number: "))
+      result = num1 / num2
+      print("Answer:", result)
+
+  choice = input("continue? (yes/no)")
+  if choice == "no":
+    break
